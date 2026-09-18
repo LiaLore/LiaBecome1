@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Lia's Journal ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Quicksand:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body class="journal-page">
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav class="navbar">
+
+        <div class="nav-item">
+
+            <a
+                href="LiaBecome.html#home"
+                class="nav-icon"
+            >
+                ⌂
+            </a>
+
+            <span>
+                home
+            </span>
+
+        </div>
+
+
+        <div class="nav-item">
+
+            <a
+                href="LiaBecome.html#about"
+                class="nav-icon"
+            >
+                ♡
+            </a>
+
+            <span>
+                about me
+            </span>
+
+        </div>
+
+
+        <div class="nav-item">
+
+            <a
+                href="LiaBecome.html#music"
+                class="nav-icon"
+            >
+                ♫
+            </a>
+
+            <span>
+                music
+            </span>
+
+        </div>
+
+
+        <div class="nav-item">
+
+            <a
+                href="journal.html"
+                class="nav-icon"
+            >
+                ✎
+            </a>
+
+            <span>
+                journal
+            </span>
+
+        </div>
+
+
+        <button
+            id="themeButton"
+            class="theme-button"
+        >
+            ☾
+        </button>
+
+    </nav>
+
+
+    <main>
+
+
+        <!-- ================= HEADER ================= -->
+
+        <section class="journal-header">
+
+            <p class="small-heading">
+                a place for my thoughts
+            </p>
+
+            <h1>
+                my journal
+            </h1>
+
+            <p class="quote">
+                things I don't want to forget.
+            </p>
+
+            <div class="journal-decoration">
+                ✿　♡　🕊️　♡　✿
+            </div>
+
+        </section>
+
+
+        <!-- ================= NEW ENTRY ================= -->
+
+        <section class="new-entry-section">
+
+            <div class="paper">
+
+                <div class="paper-holes">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <div class="paper-tape"></div>
+
+
+                <h2 id="formTitle">
+                    write something ♡
+                </h2>
+
+
+                <input
+                    type="text"
+                    id="entryTitle"
+                    placeholder="give this thought a little title..."
+                    maxlength="100"
+                >
+
+
+                <textarea
+                    id="entryText"
+                    placeholder="write whatever is on your mind..."
+                ></textarea>
+
+
+                <div class="entry-controls">
+
+                    <button
+                        id="saveEntry"
+                        class="main-button"
+                    >
+                        save entry ♡
+                    </button>
+
+
+                    <button
+                        id="cancelEdit"
+                        class="cancel-button hidden"
+                    >
+                        cancel
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= JOURNAL PAGES ================= -->
+
+        <section class="entries-section">
+
+            <div class="journal-top">
+
+                <div class="section-title">
+
+                    <span>♡</span>
+
+                    <h2>
+                        my pages
+                    </h2>
+
+                    <span>♡</span>
+
+                </div>
+
+
+                <button
+                    id="favoritesFilter"
+                    class="favorite-filter"
+                >
+                    ♡ show favorites
+                </button>
+
+            </div>
+
+
+            <div
+                id="entriesContainer"
+                class="entries-container"
+            >
+                <!-- entries appear here -->
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            my little corner ♡
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
